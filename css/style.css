@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("bkimage.png") no-repeat center center fixed;
+    font-family: 'Courier New', Courier, monospace ;
+    background-size: cover;
+}
+.nav-link{
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+    transition: 0.5s ease;
+}
+.main-con{
+    height: 100vh;
+    padding: 5rem;
+}
+.main-con{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.about img{
+    height: 100px;
+    width: 100px;
+}
+#social{
+    background-color:lightgray;
+}
+.media_link btn{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid yellow;
+    border-radius: 0.5rem;
+}
+
+
